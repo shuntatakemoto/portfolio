@@ -3,15 +3,15 @@ import './Card.css'
 
 class Card extends React.Component{
     render(){
-      return(
+       return(
         <div className='lesson-card'>
           <div className='lesson-item'>
-            <p></p>
-            <img />
+            <p>{this.props.name}</p>
+            <img src={this.props.image}/>
           </div>
         </div>
         )
     }
   }
 
-  export default Card;
+export default Card;
