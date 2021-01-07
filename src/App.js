@@ -9,9 +9,14 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
+      <nav className="nav">
+        <ul className="navbar">
+          <li className="navbar__item"><Link className="navbar__link" to="/">home</Link></li>
+          <li className="navbar__item"><Link className="navbar__link" to="/about">about</Link></li>
+          <li className="navbar__item"><Link className="navbar__link" to="/works">works</Link></li>
+          <li className="navbar__item"><Link className="navbar__link" to="/skills">skills</Link></li>
+        </ul>
+      </nav>
     </div>
   );
 }

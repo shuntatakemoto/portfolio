@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "./Card";
-
+import youthsense from '../images/youthsense.png';
 class Works extends React.Component {
     render() {
         const worksItem = {
@@ -18,6 +18,7 @@ class Works extends React.Component {
                 <Card
                 name={worksItem.name}
                 image={worksItem.image}
+                // image={youthsense}
                 />
 
             </div>
