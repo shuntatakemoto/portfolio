@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from "./Card";
 
-class Main extends React.Component {
+class Works extends React.Component {
     render() {
         const worksItem = {
             name: 'YOUTH SENSE HP',

@@ -7,7 +7,10 @@ class Card extends React.Component{
         <div className='lesson-card'>
           <div className='lesson-item'>
             <p>{this.props.name}</p>
-            <img src={this.props.image}/>
+            <img
+            src={this.props.image}
+            alt=""
+            />
           </div>
         </div>
         )

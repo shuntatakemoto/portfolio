@@ -4,10 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route} from 'react-router-dom';
-import About from './component/About';
-import Works from './component/Works';
-import Skills from './component/Skills';
-import Home from './component/Home';
+import About from './components/About';
+import Works from './components/Works';
+import Skills from './components/Skills';
+import Home from './components/Home';
 
 ReactDOM.render(
   <BrowserRouter>
