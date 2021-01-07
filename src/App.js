@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       <nav className="nav">
         <ul className="navbar">
-          <li className="navbar__item"><Link className="navbar__link" to="/">home</Link></li>
-          <li className="navbar__item"><Link className="navbar__link" to="/about">about</Link></li>
-          <li className="navbar__item"><Link className="navbar__link" to="/works">works</Link></li>
-          <li className="navbar__item"><Link className="navbar__link" to="/skills">skills</Link></li>
+          <li className="navbar__item"><Link className="navbar__link" to="/">Home</Link></li>
+          <li className="navbar__item"><Link className="navbar__link" to="/about">About</Link></li>
+          <li className="navbar__item"><Link className="navbar__link" to="/works">Works</Link></li>
+          <li className="navbar__item"><Link className="navbar__link" to="/skills">Skills</Link></li>
         </ul>
       </nav>
     </div>

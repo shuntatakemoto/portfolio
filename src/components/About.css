@@ -1,0 +1,28 @@
+.about_wrapper {
+  color: white;
+}
+.about_wrapper h1 {
+  padding: 3rem 0;
+  text-align: center;
+}
+.about_container {
+  display: flex;
+  justify-content: center;
+}
+th {
+  text-align: left;
+  padding-bottom: 1rem;
+  width: 50%;
+}
+td {
+  padding-bottom: 1rem;
+  width: 50%;
+}
+.about_wrapper .about_container table tr th a {
+  text-decoration: none;
+  color: rgb(192, 157, 224);
+}
+table {
+  width: 80%;
+  text-align: center;
+}

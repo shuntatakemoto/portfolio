@@ -5,3 +5,13 @@
 .App {
   background-color: rgb(192, 157, 224);
 }
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 1rem 2rem;
+  justify-content: space-around;
+}
+.navbar__link {
+  text-decoration: none;
+  color: #282c34;
+}

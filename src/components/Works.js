@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from "./Card";
 import youthsense from '../images/youthsense.png';
+import './Works.css'
 class Works extends React.Component {
     render() {
         const worksItem = {
