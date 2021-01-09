@@ -7,42 +7,44 @@ class Skills extends React.Component {
         const skillsList = [
             {
                 name: 'Javascript',
-                image: ''
+                image: 'javascript.svg'
             },
             {
                 name:'Typescript',
-                image:'',
+                image:'typescript.svg',
             },
             {
                 name:'React',
-                image:'',
+                image:'react.svg',
             },
             {
                 name:'Python',
-                image:'',
-            },
-            {
-                name:'Three.js',
-                image:'',
+                image:'python.svg',
             },
             {
                 name:'C',
-                image:'',
+                image:'c.svg',
             },
             {
-                name:'HTML/CSS',
-                image:'',
+                name:'HTML',
+                image:'html-5.svg',
             },
-
+            {
+                name:'CSS',
+                image:'css-3.svg',
+            },
             {
                 name:'Firebase',
-                image:'',
+                image:'firebase.svg',
             },
             {
                 name:'Github',
-                image:'',
+                image:'github.svg',
             },
-
+            {
+                name:'Visual Studio Code',
+                image:'visual-studio-code.svg',
+            },
         ];
         return (
         <div className='skills-wrapper'>
