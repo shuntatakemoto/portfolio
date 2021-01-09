@@ -46,7 +46,7 @@ function init() {
   tick();
   function tick() {
     renderer.render(scene, camera);
-    cube.rotation.x += 0.005;
+    // cube.rotation.x += 0.005;
     cube.rotation.y += 0.01;
     requestAnimationFrame(tick);
   }

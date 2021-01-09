@@ -1,6 +1,5 @@
 import React from 'react';
 import './Card.css'
-
 class Card extends React.Component{
     render(){
        return(
@@ -9,7 +8,7 @@ class Card extends React.Component{
             <p>{this.props.name}</p>
             <img
             src={this.props.image}
-            alt=""
+            alt={this.props.name}
             />
           </div>
         </div>

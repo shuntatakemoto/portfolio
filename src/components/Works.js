@@ -1,12 +1,11 @@
 import React from 'react';
 import Card from "./Card";
-import youthsense from '../images/youthsense.png';
 import './Works.css'
 class Works extends React.Component {
     render() {
         const worksItem = {
             name: 'YOUTH SENSE HP',
-            image: '../images/youthsense.png'
+            image: 'youthsense.png'
         }
 
         return (
@@ -19,7 +18,6 @@ class Works extends React.Component {
                 <Card
                 name={worksItem.name}
                 image={worksItem.image}
-                // image={youthsense}
                 />
 
             </div>
