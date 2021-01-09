@@ -1,9 +1,10 @@
 .card {
+  /* width: 15%; */
   width: 23%;
   /* background-color: yellowgreen; */
   border-radius: 20px;
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.6);
-  margin: 2rem 5%;
+  margin: 5% 5%;
 }
 .card__img {
   width: 100%;
@@ -16,9 +17,9 @@
 } */
 .card__name {
   text-align: center;
-  font-size: 1rem;
+  font-size: 100%;
   color: white;
-  margin: 1rem 0;
+  margin: 5% 0;
 }
 /* .card__lead {
   padding: 0 40px;

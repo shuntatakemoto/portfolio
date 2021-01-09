@@ -3,10 +3,16 @@ import Card from "./Card";
 import './Works.css'
 class Works extends React.Component {
     render() {
-        const worksItem = {
+        const worksList = [
+            {
             name: 'YOUTH SENSE HP',
             image: 'youthsense.png'
+            },
+        {
+            name: 'contobutter ranking bot',
+            image: 'contobutter_ranking_bot.png'
         }
+    ]
 
         return (
         <div className='works-wrapper'>
@@ -15,11 +21,14 @@ class Works extends React.Component {
                 <h1>Works</h1>
             </div>
             <div className='works-container'>
+            {worksList.map((worksItem)=>{
+                return(
                 <Card
-                name={worksItem.name}
-                image={worksItem.image}
+                    name={worksItem.name}
+                    image={worksItem.image}
                 />
-
+                )
+            })}
             </div>
             </div>
         </div>

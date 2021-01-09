@@ -31,6 +31,11 @@ class Skills extends React.Component {
                 lead:''
             },
             {
+                name:'MySQL',
+                image:'mysql.svg',
+                lead:''
+            },
+            {
                 name:'HTML',
                 image:'html-5.svg',
                 lead:''
