@@ -7,43 +7,53 @@ class Skills extends React.Component {
         const skillsList = [
             {
                 name: 'Javascript',
-                image: 'javascript.svg'
+                image: 'javascript.svg',
+                lead:''
             },
             {
                 name:'Typescript',
                 image:'typescript.svg',
+                lead:''
             },
             {
                 name:'React',
                 image:'react.svg',
+                lead:''
             },
             {
                 name:'Python',
                 image:'python.svg',
+                lead:''
             },
             {
                 name:'C',
                 image:'c.svg',
+                lead:''
             },
             {
                 name:'HTML',
                 image:'html-5.svg',
+                lead:''
             },
             {
                 name:'CSS',
                 image:'css-3.svg',
+                lead:''
             },
             {
                 name:'Firebase',
                 image:'firebase.svg',
+                lead:''
             },
             {
                 name:'Github',
                 image:'github.svg',
+                lead:''
             },
             {
                 name:'Visual Studio Code',
                 image:'visual-studio-code.svg',
+                lead:''
             },
         ];
         return (
