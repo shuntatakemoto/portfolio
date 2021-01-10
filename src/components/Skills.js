@@ -36,12 +36,12 @@ class Skills extends React.Component {
                 lead:''
             },
             {
-                name:'HTML',
+                name:'HTML5',
                 image:'html-5.svg',
                 lead:''
             },
             {
-                name:'CSS',
+                name:'CSS3',
                 image:'css-3.svg',
                 lead:''
             },

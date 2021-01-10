@@ -9,8 +9,8 @@ class Works extends React.Component {
             image: 'youthsense.png'
             },
         {
-            name: 'contobutter ranking bot',
-            image: 'contobutter_ranking_bot.png'
+            name: 'contributter ranking bot',
+            image: 'contributter_ranking_bot.png'
         }
     ]
 
