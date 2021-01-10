@@ -2,3 +2,16 @@
   color: white;
   text-align: center;
 }
+.home-sns-link {
+  margin-top: 6rem;
+  width: 5%;
+}
+.home-sns {
+  text-align: center;
+}
+.home-github {
+  margin-left: 30%;
+}
+.home-twitter {
+  margin-right: 30%;
+}

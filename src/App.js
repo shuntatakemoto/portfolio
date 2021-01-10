@@ -15,6 +15,7 @@ function App() {
           <li className="navbar__item"><Link className="navbar__link" to="/about">About</Link></li>
           <li className="navbar__item"><Link className="navbar__link" to="/works">Works</Link></li>
           <li className="navbar__item"><Link className="navbar__link" to="/skills">Skills</Link></li>
+          <li className="navbar__item"><Link className="navbar__link" to="/posts">Posts</Link></li>
         </ul>
       </nav>
     </div>
