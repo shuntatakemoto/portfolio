@@ -8,6 +8,10 @@ class Works extends React.Component {
             name: 'YOUTH SENSE HP',
             image: 'youthsense.png'
             },
+            {
+                name: 'Honeyboy&co. EC',
+                image: 'honey-boy.png'
+            },
         {
             name: 'contributter ranking bot',
             image: 'contributter_ranking_bot.png'
