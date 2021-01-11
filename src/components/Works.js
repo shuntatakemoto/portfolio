@@ -6,15 +6,18 @@ class Works extends React.Component {
         const worksList = [
             {
             name: 'YOUTH SENSE HP',
-            image: 'youthsense.png'
+            image: 'youthsense.png',
+            link:'https://youthsense-coffee.com/'
             },
             {
                 name: 'Honeyboy&co. EC',
-                image: 'honey-boy.png'
+                image: 'honey-boy.png',
+                link:'https://honeyboy-co.com/'
             },
         {
             name: 'contributter ranking bot',
-            image: 'contributter_ranking_bot.png'
+            image: 'contributter_ranking_bot.png',
+            link:'https://twitter.com/haruta_8_'
         }
     ]
 
@@ -30,6 +33,7 @@ class Works extends React.Component {
                 <Card
                     name={worksItem.name}
                     image={worksItem.image}
+                    link={worksItem.link}
                 />
                 )
             })}
