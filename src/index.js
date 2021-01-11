@@ -8,6 +8,7 @@ import About from './components/About';
 import Works from './components/Works';
 import Skills from './components/Skills';
 import Home from './components/Home';
+import Posts from './components/Posts';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -16,6 +17,7 @@ ReactDOM.render(
   <Route path={'/about'}  component={About}/>
   <Route path={'/works'} component={Works}/>
   <Route path={'/skills'} component={Skills}/>
+  <Route path={'/posts'} component={Posts}/>
   </BrowserRouter>
   ,document.getElementById('root')
 );

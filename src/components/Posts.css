@@ -1,0 +1,11 @@
+.posts-top-title {
+  text-align: center;
+  color: white;
+  margin: 3rem 0;
+}
+.posts-top-title h1 {
+  font-size: 3rem;
+}
+.posts-top-title p {
+  margin-top: 3rem;
+}

@@ -1,5 +1,6 @@
 .home__description {
-  color: rgb(192, 157, 224);
+  /* color: rgb(192, 157, 224); */
+  color: white;
   text-align: center;
 }
 .home-sns-link {
