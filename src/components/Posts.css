@@ -12,3 +12,26 @@
 header {
   color: white;
 }
+.posts-return {
+  width: 30%;
+  margin: 3rem 10%;
+  border-radius: 20px;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.posts-parent {
+  display: flex;
+}
+.post-date {
+  margin: 1rem 0;
+}
+.post-title {
+  margin: 1rem 0;
+}
+.post-link {
+  margin: 1rem 0;
+}
+.post-link a {
+  text-decoration: none;
+  color: rgb(192, 157, 224);
+}
