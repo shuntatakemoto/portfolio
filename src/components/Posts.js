@@ -7,7 +7,7 @@ import Moment from 'react-moment'
 /*RSSParserのインスタンス生成*/
 const RssParser = require('rss-parser');
 const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
-const url1 = CORS_PROXY + 'https://zenn.dev/shuntatakemoto/feed'
+const url1 = CORS_PROXY + 'https://zenn.dev/someone7140/feed'
 const url2 = CORS_PROXY + 'https://haruta.hatenablog.jp/feed'
 const rssParser = new RssParser();
 
