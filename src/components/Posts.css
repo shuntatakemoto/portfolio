@@ -38,3 +38,10 @@ header {
   display: flex;
   flex-flow: row wrap;
 }
+
+@media screen and (max-width: 767px) {
+  .posts-parent {
+    width: 80%;
+    padding: 3rem 10%;
+  }
+}

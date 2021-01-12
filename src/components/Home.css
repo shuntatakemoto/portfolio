@@ -16,3 +16,9 @@
 .home-twitter {
   margin-right: 30%;
 }
+
+@media screen and (max-width: 767px) {
+  .home-sns a img {
+    width: 15%;
+  }
+}
