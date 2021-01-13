@@ -8,7 +8,7 @@ import Moment from 'react-moment'
 const RssParser = require('rss-parser');
 const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
 const url1 = CORS_PROXY + 'https://zenn.dev/shuntatakemoto/feed'
-const url2 = CORS_PROXY + 'https://haruta.hatenablog.jp/feed'
+// const url2 = CORS_PROXY + 'https://haruta.hatenablog.jp/feed'
 const rssParser = new RssParser();
 
 class Posts extends Component {
@@ -25,7 +25,6 @@ class Posts extends Component {
     rssParser.parseURL(url1)
       .then((feed) => {
         const data = feed.items;
-        console.log(data);
         this.setState({
           contents: [...data]
         });
