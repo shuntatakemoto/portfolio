@@ -55,7 +55,7 @@ class Posts extends Component {
       <div className="Posts">
         <div className="posts-top-title">
             <h1>Posts</h1>
-            <p>様々な媒体に投稿した記事を自動で集計して表示しています</p>
+            <p>他の媒体に投稿した記事を自動で集計して表示しています</p>
         </div>
         <header className="Posts-header">
           {contents}
