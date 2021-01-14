@@ -2,6 +2,9 @@
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "yarn": "1.22.10"
+  },
   "dependencies": {
     "@emotion/core": "^11.0.0",
     "@testing-library/jest-dom": "^5.11.8",
