@@ -5,20 +5,25 @@ class Works extends React.Component {
     render() {
         const worksList = [
             {
-            name: 'YOUTH SENSE HP',
+            name: 'Portfolio Site',
+            image: 'portfolio-site.png',
+            link:'https://youthsense-coffee.com/'
+            },
+            {
+            name: 'contributter ranking bot',
+            image: 'contributter_ranking_bot.png',
+            link:'https://twitter.com/haruta_8_'
+            },
+            {
+            name: 'YOUTH SENSE',
             image: 'youthsense.png',
             link:'https://youthsense-coffee.com/'
             },
             {
-                name: 'Honeyboy&co. EC',
-                image: 'honey-boy.png',
-                link:'https://honeyboy-co.com/'
-            },
-        {
-            name: 'contributter ranking bot',
-            image: 'contributter_ranking_bot.png',
-            link:'https://twitter.com/haruta_8_'
-        }
+            name: 'Honeyboy&co.',
+            image: 'honey-boy.png',
+            link:'https://honeyboy-co.com/'
+            }
     ]
 
         return (
