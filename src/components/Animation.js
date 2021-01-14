@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as THREE from 'three';
-import './Animation.css'
+import '../styles/Animation.css'
 
 export default class ThreeSampleCube extends Component {
 

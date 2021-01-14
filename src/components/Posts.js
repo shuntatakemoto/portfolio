@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import './Posts.css';
+import '../styles/Posts.css';
 import Moment from 'react-moment'
 
 /*RSSParserのインスタンス生成*/

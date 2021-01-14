@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "./Card";
-import './Skills.css'
+import '../styles/Skills.css'
 
 class Skills extends React.Component {
     render() {
