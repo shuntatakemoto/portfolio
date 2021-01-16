@@ -7,7 +7,7 @@ class Works extends React.Component {
             {
             name: 'Portfolio Site',
             image: 'portfolio-site.png',
-            link:'https://youthsense-coffee.com/'
+            link:'https://shuntatakemoto.github.io/portfolio/'
             },
             {
             name: 'contributter ranking bot',
