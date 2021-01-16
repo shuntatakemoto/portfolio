@@ -14,14 +14,6 @@ import Home from './components/Home';
 import Posts from './components/Posts';
 
 ReactDOM.render(
-  // <BrowserRouter>
-  // <App />
-  // <Route exact path={'/portfolio/'} component={Home}/>
-  // <Route path={'/portfolio/about'}  component={About}/>
-  // <Route path={'/portfolio/works'} component={Works}/>
-  // <Route path={'/portfolio/skills'} component={Skills}/>
-  // <Route path={'/portfolio/posts'} component={Posts}/>
-  // </BrowserRouter>
   <HashRouter>
   <App />
   <Route exact path={'/'} component={Home}/>
