@@ -12,7 +12,7 @@ class Works extends React.Component {
             {
             name: 'contributter ranking bot',
             image: 'contributter_ranking_bot.png',
-            link:'https://twitter.com/haruta_8_'
+            link:'https://twitter.com/_who_is_king_'
             },
             {
             name: 'YOUTH SENSE',
