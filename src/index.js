@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route} from 'react-router-dom';
+// import {BrowserRouter, Route} from 'react-router-dom';
+
+import {HashRouter,Route} from 'react-router-dom';
+
 import About from './components/About';
 import Works from './components/Works';
 import Skills from './components/Skills';
@@ -11,14 +14,23 @@ import Home from './components/Home';
 import Posts from './components/Posts';
 
 ReactDOM.render(
-  <BrowserRouter>
+  // <BrowserRouter>
+  // <App />
+  // <Route exact path={'/portfolio/'} component={Home}/>
+  // <Route path={'/portfolio/about'}  component={About}/>
+  // <Route path={'/portfolio/works'} component={Works}/>
+  // <Route path={'/portfolio/skills'} component={Skills}/>
+  // <Route path={'/portfolio/posts'} component={Posts}/>
+  // </BrowserRouter>
+  <HashRouter>
   <App />
   <Route exact path={'/portfolio/'} component={Home}/>
   <Route path={'/portfolio/about'}  component={About}/>
   <Route path={'/portfolio/works'} component={Works}/>
   <Route path={'/portfolio/skills'} component={Skills}/>
   <Route path={'/portfolio/posts'} component={Posts}/>
-  </BrowserRouter>
+  </HashRouter>
+
   ,document.getElementById('root')
 );
 
