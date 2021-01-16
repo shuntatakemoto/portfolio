@@ -19,7 +19,7 @@ class Home extends React.Component {
               <h1>SHUNTA TAKEMOTO</h1>
             </div>
             <div className="home-sns">
-                <a href="https://twitter.com/home?lang=ja"><img
+                <a href="https://twitter.com/haruta_8_"><img
                     className="home-sns-link home-twitter"
                     src={'twitter.svg'}
                     alt={'twitter'}

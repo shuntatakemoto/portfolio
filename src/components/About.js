@@ -22,7 +22,7 @@ class About extends React.Component {
                 </tr>
                 <tr class="tr">
                     <td>Twitter</td>
-                    <th><a href="https://twitter.com/home?lang=ja">@haruta_8_</a></th>
+                    <th><a href="https://twitter.com/haruta_8_">@haruta_8_</a></th>
                 </tr>
                 <tr class="tr">
                     <td>Facebook</td>
