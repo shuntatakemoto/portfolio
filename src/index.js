@@ -13,11 +13,11 @@ import Posts from './components/Posts';
 ReactDOM.render(
   <BrowserRouter>
   <App />
-  <Route exact path={'/'} component={Home}/>
-  <Route path={'/about'}  component={About}/>
-  <Route path={'/works'} component={Works}/>
-  <Route path={'/skills'} component={Skills}/>
-  <Route path={'/posts'} component={Posts}/>
+  <Route exact path={'/portfolio/'} component={Home}/>
+  <Route path={'/portfolio/about'}  component={About}/>
+  <Route path={'/portfolio/works'} component={Works}/>
+  <Route path={'/portfolio/skills'} component={Skills}/>
+  <Route path={'/portfolio/posts'} component={Posts}/>
   </BrowserRouter>
   ,document.getElementById('root')
 );
